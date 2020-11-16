@@ -1,7 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - KID.CameraControl
+    - KID.CharacterMovement2D
+    - LevelManager
     - MenuManager
+    - Player
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -57,23 +61,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 586}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11518}
+      Script: {instanceID: 11516}
     - Class: 114
       Script: {instanceID: 12060}
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13642}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 14252}
+      Script: {instanceID: 14258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -113,6 +117,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
     - Class: 70
@@ -134,23 +142,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 586}
     - Class: 114
-      Script: {instanceID: 11172}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11518}
+      Script: {instanceID: 11516}
+    - Class: 114
+      Script: {instanceID: 11624}
     - Class: 114
       Script: {instanceID: 12060}
     - Class: 114
       Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12882}
+      Script: {instanceID: 12608}
     - Class: 114
-      Script: {instanceID: 13642}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 14252}
+      Script: {instanceID: 13644}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 13772}
+    - Class: 114
+      Script: {instanceID: 14066}
+    - Class: 114
+      Script: {instanceID: 14258}
+    - Class: 114
+      Script: {instanceID: 14300}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -290,6 +306,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e8feec615c471c06dc48ab5fbb0b15bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KID
+    className: CameraControl
   - hash:
       serializedVersion: 2
       Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
@@ -437,6 +459,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
@@ -562,6 +590,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 6685ad761de8ee4d0ffbbed893d7c2dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -572,6 +606,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 37e192d4cc6c6d302e860b0b519b0a28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: KID
+    className: CharacterMovement2D
   - hash:
       serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
